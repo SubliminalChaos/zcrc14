@@ -1,10 +1,13 @@
 main: me.waqe.plugin.App
-name: SpigotPlugin
+name: StatsTab
 version: '0.1'
 api: '1'
 api-version: 1.16
 
 commands:
+  mystats:
+    description: Limited statistics
+    usage: /mystats {deaths/logins/mobKills/playerKills}
   version:
     description: Plugin version
     usage: /version
